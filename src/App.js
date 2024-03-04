@@ -29,6 +29,8 @@ function App() {
       theme: "outline",
       size: "large",
     });
+
+    google.accounts.id.prompt();
   }, []);
 
   // no user -> then show the sign in button
